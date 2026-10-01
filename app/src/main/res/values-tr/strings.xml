@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PC Remote</string>
+
+    <!-- Durum mesajları -->
+    <string name="msg_tap_turn_on">Başlatmak için Aç\'a dokunun</string>
+    <string name="msg_need_permission">PC Remote, Yakındaki cihazlar iznine ihtiyaç duyar. İzin vermek için Aç\'a dokunun.</string>
+    <string name="msg_no_bluetooth">Bu telefonda Bluetooth yok</string>
+    <string name="msg_bt_off">Bluetooth kapalı — Aç\'a dokunun</string>
+    <string name="msg_starting">Bluetooth başlatılıyor…</string>
+    <string name="msg_unsupported">Bu telefon Bluetooth klavye/fare modunu desteklemiyor</string>
+    <string name="msg_no_answer">Bluetooth yanıt vermedi. Tekrar denemek için Aç\'a dokunun.</string>
+    <string name="msg_register_failed">Klavye/fare modu başlatılamadı. Başka bir Bluetooth klavye uygulaması etkin olabilir — onu kapatıp Aç\'a dokunun.</string>
+    <string name="msg_ready">Aşağıdan bilgisayarınızı seçin veya yenisini eşleştirin</string>
+    <string name="msg_connecting">%1$s cihazına bağlanılıyor…</string>
+    <string name="msg_connect_failed">Bağlantı başlatılamadı. Aç\'a dokunup tekrar deneyin.</string>
+    <string name="msg_pc_no_answer">%1$s yanıt vermedi. Bilgisayarın Bluetooth\'u açık mı? Yeniden eşleştirdiyseniz, iki taraftan da kaldırın ve bu ekranda Hazır yazarken tekrar eşleştirin.</string>
+    <string name="msg_not_connected">Bağlı değil — aşağıdan bilgisayarınızı seçin</string>
+    <string name="msg_bt_stopped">Bluetooth durdu — Aç\'a dokunun</string>
+    <string name="msg_connected">%1$s cihazına bağlı</string>
+    <string name="warn_background">Arka plan modu başlatılamadı; uygulamadan çıkınca bağlantı kopacak. (Geliştirici: AndroidManifest.xml içinde HidService tanımlı mı kontrol edin.)</string>
+
+    <!-- Durum başlıkları -->
+    <string name="status_ready">Hazır</string>
+    <string name="status_starting">Başlatılıyor</string>
+    <string name="status_connecting">Bağlanıyor</string>
+    <string name="status_connected">Bağlı</string>
+    <string name="status_unsupported">Desteklenmiyor</string>
+    <string name="status_off">Kapalı</string>
+
+    <!-- Bağlantı ekranı -->
+    <string name="connect_subtitle">Telefonunuz, TV\'ye bağlı bilgisayarınızın faresi ve klavyesi olur.</string>
+    <string name="turn_on">Aç</string>
+    <string name="turn_off">Kapat</string>
+    <string name="reconnect_to">%1$s cihazına yeniden bağlan</string>
+    <string name="your_computers">BİLGİSAYARLARINIZ</string>
+    <string name="no_paired_devices">Henüz eşleştirilmiş cihaz yok.</string>
+    <string name="no_paired_computers">Henüz eşleştirilmiş bilgisayar yok — aşağıdan eşleştirin.</string>
+    <string name="show_all_devices">Tüm eşleştirilmiş cihazları göster</string>
+    <string name="show_computers_only">Yalnızca bilgisayarları göster</string>
+    <string name="device_computer">Bilgisayar</string>
+    <string name="device_other">Diğer cihaz</string>
+    <string name="pair_title">Yeni bilgisayar eşleştir</string>
+    <string name="pair_step1">Yukarıdaki durumda Hazır yazana kadar bekleyin, sonra “Telefonu görünür yap”a dokunun.</string>
+    <string name="pair_step2">Bilgisayarda: Ayarlar → Bluetooth ve cihazlar → Cihaz ekle → Bluetooth.</string>
+    <string name="pair_step3">Bu telefonu seçin ve iki ekrandaki kodu da onaylayın.</string>
+    <string name="pair_tip">İpucu: Bilgisayar bu telefonu zaten tanıyorsa (örneğin Phone Link\'ten), önce iki taraftan da kaldırın.</string>
+    <string name="refresh_list">↻ Yenile</string>
+    <string name="pair_tip_windows">Telefon Windows 11\'de listelenmiyor mu? Ayarlar → Bluetooth ve cihazlar → Cihazlar → “Bluetooth cihazlarını bulma” ayarını Gelişmiş yapın.</string>
+    <string name="make_visible">Telefonu görünür yap</string>
+    <string name="show_details">Ayrıntıları göster</string>
+    <string name="hide_details">Ayrıntıları gizle</string>
+    <string name="details_hint">Olay günlüğü — sorun bildirirken işe yarar</string>
+
+    <!-- Kontrol ekranı -->
+    <string name="disconnect">Bağlantıyı kes</string>
+    <string name="tab_touchpad">Fare</string>
+    <string name="tab_keyboard">Klavye</string>
+    <string name="tab_media">Medya</string>
+    <string name="btn_left">Sol</string>
+    <string name="btn_right">Sağ</string>
+    <string name="btn_drag">Sürükle</string>
+    <string name="btn_release">Bırak</string>
+    <string name="key_page_back">← Geri</string>
+    <string name="key_page_forward">İleri →</string>
+    <string name="key_full_screen">Tam ekran</string>
+    <string name="key_space">Boşluk</string>
+    <string name="key_refresh">Yenile</string>
+    <string name="trackpad_hint">Tıklamak için dokunun  ·  Sağ tık için iki parmakla dokunun\nKaydırmak için iki parmakla sürükleyin</string>
+    <string name="type_here">Buraya yazın — bilgisayarda görünür</string>
+    <string name="volume">SES</string>
+    <string name="seek_back">⏪ Geri</string>
+    <string name="seek_forward">İleri ⏩</string>
+    <string name="media_hint">Geri/İleri; YouTube, Netflix ve çoğu video oynatıcıda sarar.</string>
+
+    <!-- Ayarlar -->
+    <string name="settings">Ayarlar</string>
+    <string name="done">Tamam</string>
+    <string name="pointer_speed">İşaretçi hızı</string>
+    <string name="pointer_speed_hint">%1$s×  ·  büyük TV → daha yüksek hız</string>
+    <string name="app_language">Uygulama dili</string>
+    <string name="lang_system">Telefon varsayılanı</string>
+    <string name="app_language_old">Bu Android sürümünde uygulama telefonun dilini kullanır.</string>
+    <string name="pc_layout">Bilgisayar klavye düzeni</string>
+    <string name="layout_us">İngilizce (ABD)</string>
+    <string name="layout_tr">Türkçe Q</string>
+    <string name="pc_layout_hint">Bilgisayarda seçili giriş diliyle aynı olmalı (Win+Boşluk ile değiştirilir).</string>
+
+    <!-- Bildirim -->
+    <string name="notif_channel">Uzaktan bağlantı</string>
+    <string name="notif_channel_desc">Telefonunuz bilgisayarın faresi ve klavyesiyken görünür</string>
+</resources>
